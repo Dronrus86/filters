@@ -15,7 +15,7 @@
     }
 
     .header_logo img{
-        width: 350px;
+        width: 400px;
     }
 
     .mobile_nav{
@@ -49,10 +49,10 @@
         min-height: 570px;
     }
     .bg_img_container_title h1{
-        font-size: 11vw;
+        font-size: 9vw;
     }
     .bg_img_container_title h2{
-        font-size: 9vw;
+        font-size: 7vw;
         margin-top: 50px;
         margin-bottom: 40px;
     }
@@ -79,7 +79,7 @@
 }
 
     .contact_text a {
-        font-size: 35px;
+        font-size: 30px;
 
 
     }
