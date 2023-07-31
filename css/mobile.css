@@ -1,4 +1,56 @@
 @media screen and (max-width: 991px) {
 
+    .header_container,
+    .bg_img_container,
+    .footer_container_contact,
+    .container_products,
+    .mobile_nav{
+        width: 90%;
+        margin: auto;
+    }
 
+    .header_container {
+       justify-content: center;
+        padding: 50px 20px;
+    }
+
+    .header_logo img{
+        width: 300px;
+    }
+
+    .mobile_nav{
+        display: flex;
+        justify-content: center;
+    }
+    .mobile_nav_item{
+        font-family: Fira Sans Condensed, sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        line-height: normal;
+        overflow-wrap: break-word;
+        text-align: left;
+        text-indent: 0;
+        text-shadow: none;
+        text-transform: none;
+        color: #333333;
+
+    }
+    .nav_container{
+        display: none;
+    }
+    .mobile_nav nav ul li{
+       margin: 30px;
+    }
+
+    .bg_img{
+        min-height: 570px;
+    }
+
+    .green_button button{
+        width: 250px;
+        height: 70px;
+        font-size: 30px;
+    }
     }

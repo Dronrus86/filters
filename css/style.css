@@ -84,6 +84,9 @@ li {
     align-items: center;
 
 }
+.mobile_nav{
+    display: none;
+}
 
 .cart_button {
     border: none;
