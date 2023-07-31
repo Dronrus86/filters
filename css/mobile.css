@@ -48,7 +48,14 @@
     .bg_img{
         min-height: 570px;
     }
-
+    .bg_img_container_title h1{
+        font-size: 9vw;
+    }
+    .bg_img_container_title h2{
+        font-size: 7vw;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
     .green_button button{
         width: 250px;
         height: 70px;
