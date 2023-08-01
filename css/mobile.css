@@ -88,9 +88,18 @@
     }
 
 
+.products_item{
+    display: block;
+    justify-content: center;
+}
+.products_list{
+    margin: 30px;
+}
 
+.text_products{
+    text-align: center;
 
-
+}
 
 
 
