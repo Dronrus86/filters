@@ -10,12 +10,31 @@
     }
 
     .header_container {
-       justify-content: center;
+        display: block;
         padding: 50px 20px 0;
+    }
+
+    .header_logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .header_logo img{
         width: 400px;
+    }
+    .img_burger img{
+        width: 120px;
+    }
+
+    .img_burger{
+        display: block;
+
+    }
+    .btn_burger_menu{
+        border: none;
+        background-color: #FFFFFF;
+        cursor: pointer;
     }
 
     .mobile_nav{

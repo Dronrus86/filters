@@ -17,3 +17,9 @@ productsButton.forEach((event)=>{
 })
 
 
+const showMenu = document.querySelector('.show_menu');
+const btnBurgerMenu = document.querySelector('.btn_burger_menu')
+
+btnBurgerMenu.addEventListener('click', () => {
+    showMenu.classList.toggle('show_menu');
+});
