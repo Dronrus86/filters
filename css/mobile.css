@@ -89,7 +89,8 @@
 
 
 .products_item{
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
 }
 .products_list{
