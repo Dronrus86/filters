@@ -23,7 +23,7 @@ const mobileNav= document.querySelector('.mobile_nav ')
 
 btnBurgerMenu.addEventListener('click', () => {
     showMenu.classList.toggle('show_menu');
-    mobileNav.style='transition: height 1s liner 250ms';
+    // mobileNav.style='transition: height 1s liner 250ms';
 
 
 
