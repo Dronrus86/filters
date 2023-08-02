@@ -60,7 +60,7 @@
     #opencontent.open {
         opacity: 1;
         background: white;
-        transition:  opacity 2s;
+        transition:  opacity 1s;
     }
 
 
