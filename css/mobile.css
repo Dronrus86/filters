@@ -38,10 +38,34 @@
 
 
     .btn_burger_menu{
+        overflow: hidden;
+        transition: height .5s .3s;
         border: none;
         background-color: #FFFFFF;
         cursor: pointer;
     }
+
+
+    .btn_burger_menu.show {
+        overflow: hidden;
+        transition: height 9s;
+    }
+
+
+    #opencontent {
+        opacity: 0;
+        transition: opacity 5s 8s;
+
+    }
+
+    #opencontent.open {
+        opacity: 1;
+        background: white;
+        transition:  opacity 2s;
+    }
+
+
+
 
     .mobile_nav{
         display: flex;
@@ -63,6 +87,17 @@
         color: #333333;
 
     }
+
+
+
+
+
+
+
+
+
+
+
     .nav_container{
         display: none;
     }

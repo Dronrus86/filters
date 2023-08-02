@@ -87,6 +87,10 @@ li {
 .show_menu{
     display: none;
 }
+
+.mobile_nav{
+    display: none;
+}
 .img_burger{
     display: none;
 }

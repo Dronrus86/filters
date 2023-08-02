@@ -17,16 +17,27 @@ productsButton.forEach((event)=>{
 })
 
 
-const showMenu = document.querySelector('.show_menu');
+const showMenu = document.querySelector('.mobile_nav');
+const show = document.querySelector('.show_menu')
 const btnBurgerMenu = document.querySelector('.btn_burger_menu')
-const mobileNav= document.querySelector('.mobile_nav ')
+const opencontent = document.querySelector('#opencontent');
+
 
 btnBurgerMenu.addEventListener('click', () => {
+    btnBurgerMenu.classList.toggle('show');
+        opencontent.classList.toggle('open');
     showMenu.classList.toggle('show_menu');
-    // mobileNav.style='transition: height 1s liner 250ms';
+    show.classList.toggle('show_menu')
+
+
+
 
 
 
 
 
 });
+
+
+
+
