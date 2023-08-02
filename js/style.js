@@ -22,7 +22,6 @@ const show = document.querySelector('.show_menu')
 const btnBurgerMenu = document.querySelector('.btn_burger_menu')
 const opencontent = document.querySelector('#opencontent');
 
-
 btnBurgerMenu.addEventListener('click', () => {
     btnBurgerMenu.classList.toggle('show');
         opencontent.classList.toggle('open');

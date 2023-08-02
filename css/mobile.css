@@ -57,7 +57,6 @@
         transition: opacity 5s 8s;
 
     }
-
     #opencontent.open {
         opacity: 1;
         background: white;
