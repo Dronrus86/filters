@@ -34,6 +34,7 @@ li {
 .bg_img_container,
 .footer_container_contact,
 .container_products {
+
     width: 1440px;
     /*width: 88%;*/
     margin: auto;
