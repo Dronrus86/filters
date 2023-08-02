@@ -260,8 +260,6 @@ li {
 
 
 .products_item {
-
-
     margin-top: 100px;
     margin-bottom: 50px;
     display: flex;
@@ -283,7 +281,7 @@ li {
 
 .products_list img {
     width: 300px;
-    height: 159px;
+    height: 300px;
 }
 
 .products_list_text {
