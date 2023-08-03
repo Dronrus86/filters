@@ -131,19 +131,28 @@
 
 }
 
+    .products_list_text {
+        font-size: 30px;
+
+    }
 
 
+    .products_list_title {
+        font-size: 35px;
+    }
 
 
+    .products_list_price {
+        font-size: 35px;
 
-
+    }
 
 .contact img{
-    width: 64px;
+    width: 54px;
 }
 
     .contact_text a {
-        font-size: 30px;
+        font-size: 28px;
 
 
     }
