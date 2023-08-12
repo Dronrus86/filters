@@ -304,7 +304,7 @@ li {
 .products_list_text {
     font-family: Fira Sans Condensed, sans-serif;
     font-size: 23px;
-    text-align: left;
+    /*text-align: left;*/
     font-weight: 700;
     color: rgba(74 74 74);
     margin-top: 20px;
@@ -316,7 +316,7 @@ li {
     font-family: Fira Sans Condensed, sans-serif;
     line-height: 22px;
     color: rgba(74 74 74);
-    text-align: left;
+    /*text-align: left;*/
     font-size: 16px;
     margin-bottom: 0;
     margin-top: 0;
@@ -330,7 +330,7 @@ li {
     line-height: normal;
     margin-top: 20px;
     margin-bottom: 20px;
-    text-align: left;
+    /*text-align: left;*/
 }
 
 .products_button {
