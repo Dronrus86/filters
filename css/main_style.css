@@ -278,8 +278,7 @@ li {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-
-
+z-index: 1;
 
     height: 100%;
     transition: transform 0.5s;

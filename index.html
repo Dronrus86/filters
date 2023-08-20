@@ -6,6 +6,7 @@
     <link rel="shortcut icon" type="img/png" href="/img/icon-link.png"/>
     <link rel="stylesheet" href="css/main_style.css">
     <link rel="stylesheet" href="css/mobile_main.css">
+    <link rel="stylesheet" href="./form/form.css">
 </head>
 <body>
 <div class="wrapper">
@@ -83,88 +84,115 @@
             <div class="container_products">
                 <div class="products_title"><span>Каталог товаров</span></div>
 
+
+
+
+
+
+
+
                 <div class="products_item">
 
+                    <div class="wrapper_form show_form">
+                        <form class="sendOrder">
+                            <div class="closePopup"><i class="fa fa-close"></i></div>
+                            <h6>Заявка на заказ<br><span id="getTitle"></span></h6>
+                            <input type="text" name="name" placeholder="Ваше имя" required="">
+                            <input type="text" name="city" placeholder="Город" required="">
+                            <input type="tel" name="phone" placeholder="Телефон" class="phone" required="">
+                            <input type="email" name="email" placeholder="Email">
+                            <input type="hidden" name="title" id="title" value="">
+                            <input type="hidden" name="price" id="price" value="">
+                            <input type="hidden" name="url" value="">
+                            <textarea type="text" name="comment" placeholder="Комментарий"></textarea>
+                            <input type="submit" class="btn_send" value="Отправить заявку!">
+                            <span>Нажимая кнопку "Отправить заявку", я даю свое согласие на обработку моих персональных данных, согласно 152 ФЗ РФ.</span>
+                        </form>
+                    </div>
 
-                    <div class="products_list">
-                        <a href="#">
+
+
+
+
+                    <div class="products_list" >
+
                             <div><img src="img/swegon-casa-w3w4-suodatinsarja_orig.jpg" alt="filters"></div>
-                            <div class="products_list_text text_products"><p>Комплект из 2-х фильтров</p></div>
+                            <div class="products_list_text text_products" ><p>Комплект из 2-х фильтров</p></div>
                             <div class="products_list_title text_products"><p>Swegon W3/W4</p></div>
                             <div class="products_list_title text_products"><p>Страна: Финляндия</p></div>
                             <div class="products_list_price text_products"><p>2500 руб</p></div>
                             <div class="green_button products_button">
-                                <button><a class="button add" href="./PAGE_1_W3_2X_FILTERS/index.html">Купить</a></button>
+                                <button class="btn" data-id="1" data-type="Комплект из 2-х фильтров W3/W4">Купить</button>
                             </div>
-                        </a>
+
                     </div>
 
 
                     <div class="products_list">
-                        <a href="#">
+
                             <div><img src="img/swegon-w80-w100_orig.jpg" alt="filters"></div>
                             <div class="products_list_text text_products"><p>Комплект из 3-х фильтров</p></div>
                             <div class="products_list_title text_products"><p>Swegon W3/W4</p></div>
                             <div class="products_list_title text_products"><p>Страна: Финляндия</p></div>
                             <div class="products_list_price text_products"><p>3500 руб</p></div>
                             <div class="green_button products_button">
-                                <button><a class="button add" href="#">Купить</a></button>
+                                <button class="btn" data-id="2" data-type="Комплект из 3-х фильтров W3/W4">Купить</button>
                             </div>
-                        </a>
+
                     </div>
 
 
                     <div class="products_list">
-                        <a href="#">
+
                             <div><img src="img/swegon-w80-w100_orig.jpg" alt="filters"></div>
                             <div class="products_list_text text_products"><p>Комплект из 3-х фильтров</p></div>
                             <div class="products_list_title text_products"><p>Swegon W80/W100</p></div>
                             <div class="products_list_title text_products"><p>Страна: Финляндия</p></div>
                             <div class="products_list_price text_products"><p>3500 руб</p></div>
                             <div class="green_button products_button">
-                                <button><a class="button add" href="#">Купить</a></button>
+                                <button class="btn" data-id="3" data-type="Комплект из 2-х фильтров W80/W100">Купить</button>
                             </div>
-                        </a>
+
                     </div>
 
 
                     <div class="products_list">
-                        <a href="#">
+
                             <div><img src="img/604014.png" alt="кабель"></div>
                             <div class="products_list_text text_products"><p>Мудульный кабель 20м</p></div>
                             <div class="products_list_title text_products"><p>Swegon CASA</p></div>
                             <div class="products_list_title text_products"><p>Страна: Финляндия</p></div>
                             <div class="products_list_price text_products"><p>3000 руб</p></div>
                             <div class="green_button products_button">
-                                <button><a class="button add" href="#">Купить</a></button>
+                                <button class="btn" data-id="4" data-type="Мудульный кабель 20м">Купить</button>
                             </div>
-                        </a>
+
                     </div>
 
                     <div class="products_list">
-                        <a href="#">
+
                             <div><img src="img/SC10.png" alt="пульт"></div>
                             <div class="products_list_text text_products"><p>Пульт управления 10SС</p></div>
                             <div class="products_list_title text_products"><p>Swegon CASA</p></div>
                             <div class="products_list_title text_products"><p>Страна: Финляндия</p></div>
                             <div class="products_list_price text_products"><p>28000 руб</p></div>
                             <div class="green_button products_button">
-                                <button><a class="button add" href="#">Купить</a></button>
+                                <button class="btn" data-id="5" data-type="Пульт управления 10SС">Купить</button>
                             </div>
-                        </a>
+
                     </div>
 
                     <div class="products_list">
-                        <a href="#">
+
                             <div><img src="img/502103.png" alt="трубка"></div>
                             <div class="products_list_text text_products"><p>Трубка конденсата 3м</p></div>
                             <div class="products_list_title text_products"><p>Swegon CASA</p></div>
                             <div class="products_list_title text_products"><p>Страна: Финляндия</p></div>
                             <div class="products_list_price text_products"><p>3000 руб</p></div>
                             <div class="green_button products_button">
-                                <button><a class="button add" href="#">Купить</a></button>
+                                <button class="btn" data-id="6" data-type="Трубка конденсата 3м"С>Купить</button>
                             </div>
-                        </a>
+
                     </div>
 
 

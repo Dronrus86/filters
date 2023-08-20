@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+
+<div class="wrapper_form">
+    <form class="sendOrder">
+        <div class="closePopup"><i class="fa fa-close"></i></div>
+        <h6>Заявка на заказ<br><span id="getTitle"></span></h6>
+        <input type="text" name="name" placeholder="Ваше имя" required="">
+        <input type="text" name="city" placeholder="Город" required="">
+        <input type="tel" name="phone" placeholder="Телефон" class="phone" required="">
+        <input type="email" name="email" placeholder="Email">
+        <input type="hidden" name="title" id="title" value="">
+        <input type="hidden" name="price" id="price" value="">
+        <input type="hidden" name="url" value="">
+        <textarea type="text" name="comment" placeholder="Комментарий"></textarea>
+        <input type="submit" class="btn" value="Отправить заявку!">
+        <span>Нажимая кнопку "Отправить заявку", я даю свое согласие на обработку моих персональных данных, согласно 152 ФЗ РФ.</span>
+    </form>
+</div>
+
+</body>
+</html>
+
+

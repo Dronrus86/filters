@@ -1,20 +1,13 @@
-let cartCounter = document.querySelector('.cart_counter');
-let productsButton = document.querySelectorAll('.products_button');
-let add = document.querySelector('.add')
-
-
-
-
-
-
-productsButton.forEach((event)=>{
-    event.addEventListener('click',()=>{
-        cartCounter.textContent++;
-        // event.target.innerText="go"
-
-
-    });
-})
+//
+// const add = document.querySelectorAll('.btn')
+//
+// add.forEach(e=>{
+//     e.addEventListener('click', (event)=>{
+//         console.log(event.target.dataset.id)
+//         console.log(event.target.dataset.type)
+//
+//     });
+// })
 
 
 const showMenu = document.querySelector('.mobile_nav');
@@ -28,15 +21,27 @@ btnBurgerMenu.addEventListener('click', () => {
     showMenu.classList.toggle('show_menu');
     show.classList.toggle('show_menu')
 
-
-
-
-
-
-
-
 });
 
 
 
 
+
+
+const btnForm = document.querySelectorAll(".btn");
+const showForm = document.querySelector('.show_form')
+
+btnForm.forEach((e)=>{
+    e.addEventListener('click',()=>{
+      showForm.classList.toggle('show_form')
+
+    })
+})
+
+
+
+const closePopup = document.querySelector('.closePopup');
+
+closePopup.addEventListener('click', ()=>{
+    showForm.classList.toggle('show_form')
+})

@@ -1,0 +1,90 @@
+.wrapper_form{
+    height: 100%;
+    display: grid;
+    align-content: center;
+   position: absolute;
+    z-index: 4;
+    left: 35%;
+
+
+}
+
+.show_form{
+    display: none;
+}
+
+
+
+h6{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.closePopup {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background: #39AA0D;
+    right: -1px;
+    top: -1px;
+    border-radius: 0 5px 0 5px;
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.fa-remove::before, .fa-close::before, .fa-times::before {
+    content:"✕";
+
+}
+.sendOrder {
+    max-width: 420px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    display: grid;
+    position: relative;
+    padding: 25px;
+    grid-gap: 15px;
+}
+input{
+    display: grid;
+    height: 50px;
+    align-content: center;
+    padding: 0 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea{
+    display: grid;
+    height: 120px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn_send{
+    background-color: #39AA0D;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 991px) {
+    .wrapper_form{
+
+        left: 0;
+        top: 0;
+    }
+
+
+    .sendOrder{
+        height: 100vh;
+        max-width: 100vw;
+    }
+}
