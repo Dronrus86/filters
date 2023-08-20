@@ -5,6 +5,7 @@
    position: absolute;
     z-index: 4;
     left: 35%;
+    top: -15%;
 
 
 }
@@ -16,7 +17,9 @@
 
 
 h6{
-    font-size: 28px;
+    font-size: 23px;
+    color: rgba(74 74 74);
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -34,6 +37,7 @@ h6{
     color: white;
     transition: .3s;
     cursor: pointer;
+
 }
 
 .fa-remove::before, .fa-close::before, .fa-times::before {
@@ -50,6 +54,8 @@ h6{
     position: relative;
     padding: 25px;
     grid-gap: 15px;
+
+
 }
 input{
     display: grid;
@@ -68,10 +74,15 @@ textarea{
     border: 1px solid #ccc;
 }
 
+
 .btn_send{
     background-color: #39AA0D;
     color: #FFFFFF;
     font-size: 16px;
+    width: 100%;
+   border: none;
+    height: 50px;
+    cursor: pointer;
 }
 
 
